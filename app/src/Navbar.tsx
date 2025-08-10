@@ -3,7 +3,7 @@ import Row from "./dawn-ui/components/Row";
 
 export default function AppNavbar() {
   return (
-    <Navbar title="Template dawn-ui project" breadcrumb>
+    <Navbar title="Album Viewer" breadcrumb noPage>
       <Row></Row>
     </Navbar>
   );
